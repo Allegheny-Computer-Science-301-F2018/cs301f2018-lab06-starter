@@ -8,7 +8,7 @@
 
 library(dplyr)
 library(tidyverse)
-library(psych_)
+library(psych)
 # Begin by loading your csv file from the supplimental/ directory.
 
 psyData <- read.table(file.choose(), header = TRUE, sep = ",")
